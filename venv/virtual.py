@@ -12,7 +12,7 @@ import json
 import requests
 
 
-print('Loading your AI personal assistant - G One')
+print('Loading your AI personal assistanxzccxzxczt - G One')
 
 engine=pyttsx3.init('sapi5')
 voices=engine.getProperty('voices')
@@ -131,7 +131,7 @@ if __name__=='__main__':
 
         elif 'who are you' in statement or 'what can you do' in statement:
             speak('I am G-one version 1 point O your persoanl assistant. I am programmed to minor tasks like'
-                  'opening youtube,google chrome,gmail and stackoverflow ,predict time,take a photo,search wikipedia,predict weather' 
+                  'opening youtube,google chrome,gmail and stackoverflow ,predict time,take a photo,search wikipedia,predict weather'
                   'in different cities , get top headline news from times of india and you can ask me computational or geographical questions too!')
 
 
@@ -172,15 +172,3 @@ if __name__=='__main__':
             subprocess.call(["shutdown", "/l"])
 
 time.sleep(3)
-
-
-
-
-
-
-
-
-
-
-
-
